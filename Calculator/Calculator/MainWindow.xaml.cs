@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,61 @@ namespace Calculator
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public void Btn_nummer(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_procent(Object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        public void Btn_CE(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_C(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_Delat(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_gånger(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_minus(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_plus(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_likamed(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_comma(Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Btn_calc(Object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

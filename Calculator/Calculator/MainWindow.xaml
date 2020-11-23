@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Calculator" Height="450" Width="800">
+        Title="Calculator" Height="800" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -22,9 +22,37 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        
-        
-        
+
+        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Foreground="White" Background="Black"/>
+
+        <Button Click="Btn_procent" Grid.Row="3" Grid.Column="1" Content="%" FontSize="30"/>
+        <Button Click="Btn_CE" Grid.Row="3" Grid.Column="2" Content="CE" FontSize="30"/>
+        <Button Click="Btn_C" Grid.Row="3" Grid.Column="3" Content="C" FontSize="30"/>
+        <Button Click="Btn_Delat" Grid.Row="3" Grid.Column="4" Content="÷" FontSize="30"/>
+
+        <Button Click="Btn_nummer" Grid.Row="4" Grid.Column="1" Content="7" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="4" Grid.Column="2" Content="8" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="4" Grid.Column="3" Content="9" FontSize="30"/>
+        <Button Click="Btn_gånger" Grid.Row="4" Grid.Column="4" Content="*" FontSize="30"/>
+
+        <Button Click="Btn_nummer" Grid.Row="5" Grid.Column="1" Content="4" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="5" Grid.Column="2" Content="5" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="5" Grid.Column="3" Content="6" FontSize="30"/>
+        <Button Click="Btn_minus" Grid.Row="5" Grid.Column="4" Content="-" FontSize="30"/>
+
+        <Button Click="Btn_nummer" Grid.Row="6" Grid.Column="1" Content="1" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="6" Grid.Column="2" Content="2" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="6" Grid.Column="3" Content="3" FontSize="30"/>
+        <Button Click="Btn_plus" Grid.Row="6" Grid.Column="4" Content="+" FontSize="30"/>
+
+        <Button Click="Btn_likamed" Grid.Row="7" Grid.Column="1" Content="=" FontSize="30"/>
+        <Button Click="Btn_nummer" Grid.Row="7" Grid.Column="2" Content="0" FontSize="30"/>
+        <Button Click="Btn_comma" Grid.Row="7" Grid.Column="3" Content="." FontSize="30"/>
+        <Button Click="Btn_calc" Grid.Row="7" Grid.Column="4" Content="Calc" FontSize="30"/>
+
     </Grid>
 </Window>
