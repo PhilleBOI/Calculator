@@ -27,7 +27,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Foreground="White" Background="Black"/>
+        <TextBlock Name="TextField" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Foreground="White" Background="Black" FontSize="60"/>
 
         <Button Click="Btn_procent" Grid.Row="3" Grid.Column="1" Content="%" FontSize="30"/>
         <Button Click="Btn_CE" Grid.Row="3" Grid.Column="2" Content="CE" FontSize="30"/>
