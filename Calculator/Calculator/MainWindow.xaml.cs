@@ -112,8 +112,8 @@ namespace Calculator
             if (e.Source is Button button)
             {
                 if(TextField.Text.Contains('+')) {
-                var sum = Convert.ToDouble(numbers[0]) + Convert.ToDouble(numbers[1]);
-                TextField.Text = sum + "";
+                    var sum = Convert.ToDouble(numbers[0]) + Convert.ToDouble(numbers[1]);
+                    TextField.Text = sum + "";
                 }
 
                 if (TextField.Text.Contains('-'))
